@@ -1,0 +1,97 @@
+body {
+  margin: 0; }
+
+header {
+  width: 100%;
+  background-color: #c9e6ad;
+  height: 57px; }
+
+h2 {
+  padding: 9px 0 0 37px;
+  font-family: cursive; }
+  h2 .gerald {
+    color: #0060f5; }
+
+.heart-div {
+  display: inline-block;
+  position: absolute;
+  right: 79;
+  top: 4; }
+  .heart-div img {
+    height: 29px; }
+  .heart-div .numberLives {
+    font-size: 43px; }
+
+main {
+  width: 100%;
+  height: 100%;
+  background-color: lightblue; }
+
+.cloud-div {
+  height: 141px; }
+  .cloud-div .cloud {
+    position: absolute;
+    top: 10;
+    left: 10; }
+  .cloud-div .cloud2 {
+    position: absolute;
+    top: 64px;
+    left: 266px; }
+  .cloud-div .cloud3 {
+    position: absolute;
+    top: 66px;
+    left: 500; }
+  .cloud-div .cloud4 {
+    position: absolute;
+    top: 82px;
+    left: 740px; }
+  .cloud-div .cloud5 {
+    position: absolute;
+    top: 66px;
+    left: 900; }
+  .cloud-div .cloud6 {
+    position: absolute;
+    top: 82px;
+    left: 1140px; }
+
+ul {
+  position: relative;
+  padding-left: 0;
+  list-style: none;
+  display: flex; }
+  ul li {
+    width: 84px;
+    height: 100px;
+    margin: 0 5px;
+    border-bottom: 7px solid black; }
+
+.pepe {
+  width: 74px;
+  height: 62px;
+  background-image: url(../gerald.jpg);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 37px;
+  position: absolute;
+  top: 34px;
+  left: 11px;
+  border-radius: 10px; }
+
+.bee {
+  position: absolute;
+  top: 277;
+  right: 33;
+  background-color: transparent;
+  border-radius: 50%; }
+  .bee img {
+    width: 58px;
+    height: 28px; }
+
+.go {
+  position: absolute;
+  top: 160px;
+  left: 139px;
+  font-size: 97px;
+  color: red; }
+
+/*# sourceMappingURL=app.css.map */

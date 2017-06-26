@@ -1,0 +1,27 @@
+header {
+    width: 100%;
+    background-color: #c9e6ad;
+    height: 57px;
+}
+
+h2{
+ padding: 9px 0 0 37px;
+  font-family: cursive; 
+  .gerald-text{
+    color: #0060f5;
+  }
+}
+
+.heart-div {
+    display: inline-block;
+    position: absolute;
+    right: 79;
+    top: 4;
+  img{
+    height: 29px;
+  }
+  .numberLives {
+      font-size: 43px; 
+  }
+}
+
