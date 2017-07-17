@@ -40,6 +40,10 @@ $("#stop").click(function(){
 
 });
 
+$("#next").click(function(){
+	jump(); 
+});
+
 
 $("#start").click(function(){
     carRide(); 
@@ -150,27 +154,6 @@ $("main").on("click","button.try-again",function(){
  location.reload(); 
   
 });
-
-
-
-
-
-
-
-
-  
-  
-
-
-
-
-
-
-
-
-
-
-
 
 
 
